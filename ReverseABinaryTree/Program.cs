@@ -16,7 +16,7 @@ namespace ReverseABinaryTree
             BT.AddNode(new Node(3));
             BT.AddNode(new Node(2));
 
-            BinaryTree.Print(BT.RootNode,0);
+
 
         }
     }

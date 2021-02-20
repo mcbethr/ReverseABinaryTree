@@ -20,33 +20,80 @@ namespace ReverseABinaryTree
             CompareData(NodeToAdd, m_RootNode);
         }
 
-        private void CompareData (Node NodeToAdd, Node NodeToCompare)
+        private void CompareData(Node NodeToAdd, Node RootNode)
         {
-            if (NodeToAdd.Data < NodeToCompare.Data)
+            if (NodeToAdd.Data < RootNode.Data)
             {
-                if (NodeToCompare.LeftNode == null)
+                if (RootNode.LeftNode == null)
                 {
-                    NodeToCompare.LeftNode = NodeToAdd;
+                    RootNode.LeftNode = NodeToAdd;
                 }
                 else
                 {
-                    CompareData(NodeToAdd, NodeToCompare.LeftNode);
+                    CompareData(NodeToAdd, RootNode.LeftNode);
+                }
+            }
+            else if (NodeToAdd.Data > RootNode.Data)
+            {
+                if (RootNode.RightNode == null)
+                {
+                    RootNode.RightNode = NodeToAdd;
+                }
+                else
+                {
+                    CompareData(NodeToAdd, RootNode.RightNode);
                 }
             }
             else
             {
-                if (NodeToCompare.RightNode == null)
-                {
-                    NodeToCompare.RightNode = NodeToAdd;
-                }
-                else
-                {
-                    CompareData(NodeToAdd, NodeToCompare.RightNode);
-                }
+                ///Handle the case of data being the same
+                ///We can do this a few ways like with a counter
             }
         }
 
+        public void SwapNodes(Node NodeToReverse)
+            {
 
+            if ((NodeToReverse.LeftNode == null) && (NodeToReverse.RightNode == null))
+            {
+                return;
+            }
+            else
+            {
+
+                ///Nomally you would impliment cloning, but
+                ///let's keep this simple for now with a "deep copy"
+                Node TempNode = new Node(NodeToReverse.Data);
+                TempNode.LeftNode = NodeToReverse.LeftNode;
+                TempNode.RightNode = NodeToReverse.RightNode;
+
+                NodeToReverse.LeftNode = NodeToReverse.RightNode;
+                NodeToReverse.RightNode = TempNode.LeftNode;
+            }   
+        }
+
+        public void Reverse(Node NodeToReverse)
+        {
+
+            if ((NodeToReverse.LeftNode == null) && (NodeToReverse.RightNode == null))
+            {
+                return;
+            }
+            else
+            { 
+                SwapNodes(NodeToReverse);
+                if (NodeToReverse.LeftNode != null)
+                {
+                    Reverse(NodeToReverse.LeftNode);
+                }
+                else
+                {
+                    Reverse(NodeToReverse.RightNode);
+                }
+
+            }
+
+        }
 
     }
 
