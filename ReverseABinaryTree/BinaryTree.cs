@@ -52,8 +52,7 @@ namespace ReverseABinaryTree
         }
 
         public void SwapNodes(Node NodeToReverse)
-            {
-
+        {
             if ((NodeToReverse.LeftNode == null) && (NodeToReverse.RightNode == null))
             {
                 return;
@@ -69,7 +68,10 @@ namespace ReverseABinaryTree
 
                 NodeToReverse.LeftNode = NodeToReverse.RightNode;
                 NodeToReverse.RightNode = TempNode.LeftNode;
-            }   
+
+            }
+
+
         }
 
         public void Reverse(Node NodeToReverse)
