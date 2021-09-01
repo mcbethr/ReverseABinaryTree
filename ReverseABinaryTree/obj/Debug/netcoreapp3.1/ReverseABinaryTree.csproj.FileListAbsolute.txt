@@ -11,3 +11,15 @@ C:\core\ReverseABinaryTree\ReverseABinaryTree\obj\Debug\netcoreapp3.1\ReverseABi
 C:\core\ReverseABinaryTree\ReverseABinaryTree\obj\Debug\netcoreapp3.1\ReverseABinaryTree.dll
 C:\core\ReverseABinaryTree\ReverseABinaryTree\obj\Debug\netcoreapp3.1\ReverseABinaryTree.pdb
 C:\core\ReverseABinaryTree\ReverseABinaryTree\obj\Debug\netcoreapp3.1\ReverseABinaryTree.genruntimeconfig.cache
+C:\Code\ReverseABinaryTree\ReverseABinaryTree\bin\Debug\netcoreapp3.1\ReverseABinaryTree.exe
+C:\Code\ReverseABinaryTree\ReverseABinaryTree\bin\Debug\netcoreapp3.1\ReverseABinaryTree.deps.json
+C:\Code\ReverseABinaryTree\ReverseABinaryTree\bin\Debug\netcoreapp3.1\ReverseABinaryTree.runtimeconfig.json
+C:\Code\ReverseABinaryTree\ReverseABinaryTree\bin\Debug\netcoreapp3.1\ReverseABinaryTree.runtimeconfig.dev.json
+C:\Code\ReverseABinaryTree\ReverseABinaryTree\bin\Debug\netcoreapp3.1\ReverseABinaryTree.dll
+C:\Code\ReverseABinaryTree\ReverseABinaryTree\bin\Debug\netcoreapp3.1\ReverseABinaryTree.pdb
+C:\Code\ReverseABinaryTree\ReverseABinaryTree\obj\Debug\netcoreapp3.1\ReverseABinaryTree.AssemblyInfoInputs.cache
+C:\Code\ReverseABinaryTree\ReverseABinaryTree\obj\Debug\netcoreapp3.1\ReverseABinaryTree.AssemblyInfo.cs
+C:\Code\ReverseABinaryTree\ReverseABinaryTree\obj\Debug\netcoreapp3.1\ReverseABinaryTree.csproj.CoreCompileInputs.cache
+C:\Code\ReverseABinaryTree\ReverseABinaryTree\obj\Debug\netcoreapp3.1\ReverseABinaryTree.dll
+C:\Code\ReverseABinaryTree\ReverseABinaryTree\obj\Debug\netcoreapp3.1\ReverseABinaryTree.pdb
+C:\Code\ReverseABinaryTree\ReverseABinaryTree\obj\Debug\netcoreapp3.1\ReverseABinaryTree.genruntimeconfig.cache

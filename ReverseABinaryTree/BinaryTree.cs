@@ -61,11 +61,8 @@ namespace ReverseABinaryTree
             else
             {
 
-                ///Nomally you would impliment cloning, but
-                ///let's keep this simple for now with a "deep copy"
                 Node TempNode = new Node(NodeToReverse.Data);
                 TempNode.LeftNode = NodeToReverse.LeftNode;
-                TempNode.RightNode = NodeToReverse.RightNode;
 
                 NodeToReverse.LeftNode = NodeToReverse.RightNode;
                 NodeToReverse.RightNode = TempNode.LeftNode;
@@ -80,7 +77,7 @@ namespace ReverseABinaryTree
                 return;
             }
             else
-            { 
+            {
                 SwapNodes(NodeToReverse);
                 if (NodeToReverse.LeftNode != null)
                 {
@@ -90,11 +87,8 @@ namespace ReverseABinaryTree
                 {
                     Reverse(NodeToReverse.RightNode);
                 }
-
             }
-
         }
-
     }
 
 
