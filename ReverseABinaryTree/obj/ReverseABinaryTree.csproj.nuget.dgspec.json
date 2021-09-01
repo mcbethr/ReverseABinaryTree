@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\core\\ReverseABinaryTree\\ReverseABinaryTree\\ReverseABinaryTree.csproj": {}
+    "C:\\Code\\ReverseABinaryTree\\ReverseABinaryTree\\ReverseABinaryTree.csproj": {}
   },
   "projects": {
-    "C:\\core\\ReverseABinaryTree\\ReverseABinaryTree\\ReverseABinaryTree.csproj": {
+    "C:\\Code\\ReverseABinaryTree\\ReverseABinaryTree\\ReverseABinaryTree.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\core\\ReverseABinaryTree\\ReverseABinaryTree\\ReverseABinaryTree.csproj",
+        "projectUniqueName": "C:\\Code\\ReverseABinaryTree\\ReverseABinaryTree\\ReverseABinaryTree.csproj",
         "projectName": "ReverseABinaryTree",
-        "projectPath": "C:\\core\\ReverseABinaryTree\\ReverseABinaryTree\\ReverseABinaryTree.csproj",
+        "projectPath": "C:\\Code\\ReverseABinaryTree\\ReverseABinaryTree\\ReverseABinaryTree.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\core\\ReverseABinaryTree\\ReverseABinaryTree\\obj\\",
+        "outputPath": "C:\\Code\\ReverseABinaryTree\\ReverseABinaryTree\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

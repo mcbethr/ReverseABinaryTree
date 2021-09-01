@@ -5738,11 +5738,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\core\\ReverseABinaryTree\\UnitTestProject1\\UnitTestProject1.csproj",
+      "projectUniqueName": "C:\\Code\\ReverseABinaryTree\\UnitTestProject1\\UnitTestProject1.csproj",
       "projectName": "UnitTestProject1",
-      "projectPath": "C:\\core\\ReverseABinaryTree\\UnitTestProject1\\UnitTestProject1.csproj",
+      "projectPath": "C:\\Code\\ReverseABinaryTree\\UnitTestProject1\\UnitTestProject1.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\core\\ReverseABinaryTree\\UnitTestProject1\\obj\\",
+      "outputPath": "C:\\Code\\ReverseABinaryTree\\UnitTestProject1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5759,8 +5759,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\core\\ReverseABinaryTree\\ReverseABinaryTree\\ReverseABinaryTree.csproj": {
-              "projectPath": "C:\\core\\ReverseABinaryTree\\ReverseABinaryTree\\ReverseABinaryTree.csproj"
+            "C:\\Code\\ReverseABinaryTree\\ReverseABinaryTree\\ReverseABinaryTree.csproj": {
+              "projectPath": "C:\\Code\\ReverseABinaryTree\\ReverseABinaryTree\\ReverseABinaryTree.csproj"
             }
           }
         }
@@ -5807,7 +5807,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
