@@ -85,7 +85,7 @@ namespace ReverseABinaryTree
                 {
                     Reverse(NodeToReverse.LeftNode);
                 }
-                else
+                if (NodeToReverse.RightNode != null)
                 {
                     Reverse(NodeToReverse.RightNode);
                 }
