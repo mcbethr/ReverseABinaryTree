@@ -187,7 +187,7 @@ namespace UnitTestProject1
             BT.Reverse(BaseNode);
 
             Assert.AreEqual(RightChildBaseNode, BaseNode.LeftNode);
-            //Assert.AreEqual(LeftChildNodeFromBaseNode, BaseNode.RightNode.RightNode);
+            Assert.AreEqual(LeftChildNodeFromBaseNode, BaseNode.RightNode.RightNode);
         }
         [TestMethod]
         public void ReverseTreeFullNodesBranchingFromLeftAndRight()
@@ -220,7 +220,7 @@ namespace UnitTestProject1
             BT.Reverse(BaseNode);
 
             Assert.AreEqual(RightRightChildNodeFromBaseNode, BaseNode.LeftNode.LeftNode);
-
+            Assert.AreEqual(LeftLeftChildNodeFromBaseNode, BaseNode.RightNode.RightNode);
         }
 
 
