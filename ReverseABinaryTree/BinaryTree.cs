@@ -4,6 +4,16 @@ using System.Text;
 
 namespace ReverseABinaryTree
 {
+    /*
+     * Just follow the algorithm: RE-BESII.
+
+    RE - Write the REverse Method
+    B - If both the left node and right node are null, return.
+    E - Else
+    S - Swap the nodes
+    I - If the left node is not null, send the left node to reverse.
+    I - If the right node is not null, send the right node to reverse.
+    */
     public class BinaryTree
     {
         Node m_RootNode;
