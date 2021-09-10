@@ -90,6 +90,8 @@ namespace ReverseABinaryTree
                     Reverse(NodeToReverse.RightNode);
                 }
             }
+
+            return;
         }
     }
 

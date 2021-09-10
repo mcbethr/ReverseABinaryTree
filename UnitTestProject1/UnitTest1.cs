@@ -223,6 +223,40 @@ namespace UnitTestProject1
             Assert.AreEqual(LeftLeftChildNodeFromBaseNode, BaseNode.RightNode.RightNode);
         }
 
+        [TestMethod]
+        public void ReverseTreePartialFullNodesBranchingFromLeftAndRightLevel3()
+        {
+            //Should look like goes to: 
+            //          4                       4             
+            //       /     \                 /     \          
+            //      2       7               7       2        
+            //     / \                            /   \ 
+            //    1   3                          3     1
+            //   /                                      \
+            //  0                                        0
+            Node BaseNode = new Node(4);
+            Node LeftChildBaseNode = new Node(2);
+            Node RightChildBaseNode = new Node(7);
+            Node LeftChildNodeFromBaseNode = new Node(1);
+            Node RightChildNodeFromBaseNode = new Node(3);
+            Node LeftChildNodeFromLeftNodeBaseNode = new Node(0);
+
+
+            BinaryTree BT = new BinaryTree(BaseNode);
+            BT.AddNode(BaseNode);
+            BT.AddNode(LeftChildBaseNode);
+            BT.AddNode(RightChildBaseNode);
+            BT.AddNode(LeftChildNodeFromBaseNode);
+            BT.AddNode(RightChildNodeFromBaseNode);
+            BT.AddNode(LeftChildNodeFromLeftNodeBaseNode);
+
+            BT.Reverse(BaseNode);
+
+            Assert.AreEqual(LeftChildNodeFromLeftNodeBaseNode, BaseNode.RightNode.RightNode.RightNode);
+
+        }
+
 
     }
+
 }
